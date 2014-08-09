@@ -1,0 +1,136 @@
+body {
+	text-align: center;
+	background:#3fcbf9;
+}
+.none {
+	display: none;
+}
+.sg-view {
+	position: relative;
+	height: 40px;
+	width: 600px;
+	margin: 0 auto;
+	margin-bottom: 5px;
+}
+.sg-mainView,#showArea {
+	width: 600px;
+	padding: 10px;
+	margin: 0 auto;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #636363; text-indent: 2em;
+}
+input:-moz-placeholder, textarea:-moz-placeholder {
+  color: #636363;
+}
+
+.sg-bigView {
+	position: absolute;
+	min-width: 100%;
+	text-indent: 0.5em;
+	top:0px;
+	font-family: '微软雅黑';
+	font-size: 20px;
+	font-weight: bolder;
+	text-align:left;
+	height: 40px;
+	line-height: 40px;
+	vertical-align: middle;
+	border:1px dashed #f8f8f8;
+	color:red;
+	background:rgba(114,114,114,0.1);
+}
+.sg-close {
+	position: absolute;
+	width: 66px;
+	height: 38px;
+	text-align: center;
+	color: red;
+	top:0px;
+	font-family: '微软雅黑';
+	line-height: 40px;
+	font-size: 12px;
+	right: 0px;
+	border: 1px solid #3fcbf9;
+	background: #f8f8f8;
+}
+.sg-close:hover {
+	cursor: pointer;
+}
+.sg-input {
+	position: relative;
+	width: 600px;
+	height: 50px;
+	margin: 0 auto;
+	font-family: '微软雅黑','宋体';
+	font-size: 16px;
+	color:green;
+}
+input {
+	text-indent: 1em;
+	color:gray;
+	font-family: '微软雅黑','宋体';
+	font-size:14px;
+}
+.sg-input-text {
+	width: 100%;
+	height: 35px;
+	border: 1px solid green;
+	outline: none;
+}
+.sg-list a {
+	color:#3fcbf9;
+	margin-left: 10px;
+}
+.sg-list {
+	width: 600px;
+	margin: 0 auto;
+	padding: 0px;
+	height: auto;
+	border: 1px solid green;
+	border-top: none;
+	display: none;
+}
+.sg-list ul {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	margin: 0px auto;
+	list-style-type: none;
+	background: #f6f6f6;
+}
+.sg-li {
+	padding: 10px 0px;
+	padding-left: 1em;
+	border-bottom: 1px dashed #c9c9cd;	
+}
+.sg-list li:hover {
+	cursor: pointer;
+}
+#sgButton:hover {
+	cursor: pointer;
+}
+.sgButtonBottom {
+	display: inline-block;
+	position: absolute;
+	top:10px;
+	right: 0px;
+	height: 0px;
+    width: 0px;
+    border-left: 20px solid #ffffff;
+    border-right: 20px solid #ffffff;
+    border-top: 20px solid green;
+    border-bottom: 0 none;
+}
+.sgButtonTop {
+	display: inline-block;
+	position: absolute;
+	top:10px;
+	right: 0px;
+	height: 0px;
+    width: 0px;
+    border-left: 20px solid #ffffff;
+    border-right: 20px solid #ffffff;
+    border-bottom: 20px solid green;
+    border-top: 0 none;
+}

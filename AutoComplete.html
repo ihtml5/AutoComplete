@@ -1,0 +1,37 @@
+<!--
+* @author chenyuanfeng(chenyuanfeng@baidu.com)
+* @date 2014/8/7
+-->
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<title>suggest组件</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<link rel="stylesheet" href="css/suggest.css">
+		<script src="js/suggest.js"></script>
+	</head>
+	<body>
+		<div id='mainView'>
+		</div>
+		<script type="text/javascript">
+		      var opts={
+    main:{Id:'mainView',clsName:'sg-mainView'},
+    bigView:{Id:'bigView',clsName:'sg-bigView'},
+    sgInput:{Id:'sgInput',clsName:'sg-input-text'},
+    sgClose:{Id:'sgClose',clsName:'sg-close'},
+    view:{Id:'view',clsName:'sg-view'},
+    sgButton:{Id:'sgButton',clsName:'sgButtonBottom'},
+    sgSearch:{Id:'sgSearch',clsName:'sg-input'},
+    dropList:{Id:'sgList',clsName:'sg-list'},
+    sgLi:{Id:'',clsName:'sg-li'},
+    closeState:0,
+    showBigView:1,
+    data:['256','123','english','百度','es']
+ };
+var dropList = new DropDownList(opts);
+dropList.init();
+		</script>
+	</body>
+</html>
